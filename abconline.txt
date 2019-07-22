@@ -74,4 +74,4 @@ BooksCategory_016	To verify that 'View as' filter 'List' is working as per Requi
 3> Click on Books Category
 4> Click on ""View as"" filter
 5> Select  “List” from the list"	1> www.abconline.com	While User choose 'View as' Filter “List” from the list,Then products should display in List format, as shown in GUI screenshot.				
-17	kjhkjh	kjhkjhjkjh	kjhhkj	hkjh	kjhk	hkjhjk			
+
