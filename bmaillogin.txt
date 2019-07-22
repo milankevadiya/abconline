@@ -1,0 +1,70 @@
+Test case ID	TC Description	Test Precondition	Test Steps	Test Data 	Expected Result	Actual Results	Status	Defect id	Comments
+Bmail_Login_01	To verify user should logged in with valid Credential		"1. Open chrome browser.
+2. Enter URL
+3. Enter Username
+4. Enter Password
+5. Click on Login"	"1. www.bmail.com
+2. username: milankevadiya
+3. Password: test1990"	user should be logged in Successfully 				
+Bmail_Login_02	To verify user should not be logged in with Invalid Credential		"1. Open chrome browser
+2. Enter URL
+3. Enter Invalid Username
+4. Enter Invalid Password
+5. Click on Login"	"1. www.bmail.com
+2. username: milan
+3. Password: test1000"	User should not be logged in and proper error message should be shown.				
+Bmail_Login_03	To verify user should not be logged in with valid username and Invalid password		"1. Open chrome browser
+2. Enter URL
+3. Enter Valid Username
+4. Enter Invalid Password
+5. Click on Login"	"1. www.bmail.com
+2. username: milankevadiya
+3. Password: test1000"	User should not be logged in and proper error message should be shown.				
+Bmail_Login_04	To verify user should not be logged in with Invalid username and valid password		"1. Open chrome browser
+2. Enter URL
+3. Enter Invalid Username
+4. Enter valid Password
+5. Click on Login"	"1. www.bmail.com
+2. username: milan
+3. Password: test1990"	User should not be logged in and proper error message should be shown.				
+Bmail_Login_05	To verify user should not be logged in with Valid username and blank password		"1. Open chrome browser
+2. Enter URL
+3. Enter Valid Username
+4. Keep Password field blank
+5. Click on Login"	"1. www.bmail.com
+2. username: milankevadiya
+"	User should not be logged in and proper error message should be shown.				
+Bmail_Login_06	To Verify user should not be logged in with Invalid username and blank password		"1. Open chrome browser
+2. Enter URL
+3. Enter InValid Username
+4. Keep Password field blank
+5. Click on Login"	"1. www.bmail.com
+2. username: milan
+"	User should not be logged in and proper error message should be shown.				
+Bmail_Login_07	To Verify user should not be logged in with blank username and Valid password		"1. Open chrome browser
+2. Enter URL
+3. Keep Username field blank
+4. Enter Valid Password 
+5. Click on Login"	"1. www.bmail.com
+2. password: test1990
+"	User should not be logged in and proper error message should be shown.				
+Bmail_Login_08	To Verify user should not be logged in with blank username and Invalid password		"1. Open chrome browser
+2. Enter URL
+3. Keep Username field blank
+4. Enter InValid Password 
+5. Click on Login"	"1. www.bmail.com
+2. password: test1000
+"	User should not be logged in and proper error message should be shown.				
+Bmail_Login_09	To Verify user should not be logged in with blank credential.		"1. Open chrome browser
+2. Enter URL
+3. Keep Username and password field blank
+4. directly Click on Login button"	"1. www.bmail.com
+
+"	User should not be logged in and proper error message should be shown.				
+Bmail_Login_10	To verify that user should be logged in while use Enter key instead of 'Login' button		"1. Open chrome browser.
+2. Enter URL
+3. Enter Username
+4. Enter Password
+5. Press 'Enter' key only and don't Click on Login button"	"1. www.bmail.com
+2. username: milankevadiya
+3. Password: test1990"	user should be logged in Successfully 				
